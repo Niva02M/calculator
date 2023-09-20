@@ -11,8 +11,8 @@ buttons.forEach((item) => {
     } else if (display.innerText != "" && item.id == "equal") {
       display.innerText = eval(display.innerText);
     } else if (display.innerText == "" && item.id == "equal") {
-      display.innerText = "Empty!";
-      setTimeout(() => (display.innerText = ""), 2000);
+      display.innerText = "It is empty!";
+      setTimeout(() => (display.innerText = ""), 1000);
     } else {
       display.innerText += item.id;
     }
