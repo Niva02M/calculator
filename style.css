@@ -33,7 +33,7 @@ body {
 .calculator {
   position: relative;
   height: 570px;
-  width: 340px;
+  width: 330px;
   /* padding: 20 px; */
   border-radius: 20px;
   box-shadow: 0 0 30px rgb(234, 243, 217);
@@ -92,7 +92,7 @@ button {
   height: 60px;
   width: 60px;
   border: 0;
-  border-radius: 30px;
+  border-radius: 25px;
   margin: 5px;
   font-size: 20px;
   cursor: pointer;
@@ -101,6 +101,7 @@ button {
 
 button:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 8px rgb(234, 243, 217);
 }
 
 button#equal {
@@ -110,7 +111,8 @@ button#equal {
 /*light theme*/
 
 .calculator {
-  background-color: #fff;
+  background-color: #e4dddd;
+  box-shadow: #7e7e7e;
 }
 .calculator #display {
   color: #333;
